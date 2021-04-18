@@ -1,0 +1,44 @@
+.slideshow{
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 500px;
+}
+
+.slideshowsliders{
+    white-space: nowrap;
+    transition: ease .5s;
+}
+
+.slide{
+    display: inline-block;
+    color: aliceblue;
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.slide h1{
+    font-size: 40px;
+}
+
+.slideshowdots{
+    white-space: nowrap;
+    display: block;
+    text-align: center;
+}
+
+
+
+.slideshowdot{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 15px 8px 0;
+    background-color: aqua;
+}
+
+.slideshowdot:active{
+    background: rgb(252, 3, 3);
+}
