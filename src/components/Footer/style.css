@@ -1,0 +1,31 @@
+.Footer{
+    height: 400px;
+    width: 100%;
+    padding-top: 5%;
+    background: #00d9ff41;
+}
+
+.FooterWrp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first img{
+    height: 300px;
+    width: 450px;
+}
+.mid p{
+    font-size: 20px;
+}
+
+.mid a{
+    font-size: 20px;
+    font-style: none;
+    color: rgb(0, 153, 255);
+}
+.mid{
+    text-align: center;
+    justify-content: center;
+    font-style: none0;
+}

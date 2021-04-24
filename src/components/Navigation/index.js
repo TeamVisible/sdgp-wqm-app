@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {FaBars} from 'react-icons/fa';
+import logo from '../../images/logo.png'
+
 import {
     Nav, 
     NavbarContainer, 
@@ -35,7 +37,7 @@ const NavigationBar = ({toggle}) => {
         <>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to="/">WQM</NavLogo>
+                    <NavLogo to="/"><img src={logo} alt='logo' style={{height: 90, marginTop: 10}}/></NavLogo>
                     <NavIcon onClick={toggle}>
                         <FaBars /> {/* Three bars media query */}
                     </NavIcon>
@@ -49,15 +51,12 @@ const NavigationBar = ({toggle}) => {
                         <NavigationItems>
                             <NavigationLinks to="services">SERVICES</NavigationLinks>
                         </NavigationItems>
-                        <NavigationItems>
-                            <NavigationLinks to="news">NEWS UPDATE</NavigationLinks>
-                        </NavigationItems>
-                        <NavigationItems>
+                        {/* <NavigationItems>
                             <NavigationLinkToSignUp to="/signup">SIGN UP</NavigationLinkToSignUp>
-                        </NavigationItems>
+                        </NavigationItems> */}
                     </NavigationMenu>
                     <NavigationBtn>
-                        <NaviBtnLink to="/signin">SIGN IN</NaviBtnLink>
+                        <NaviBtnLink to="discover"><strong>Check the Quality</strong></NaviBtnLink>
                     </NavigationBtn>
                 </NavbarContainer>
             </Nav>

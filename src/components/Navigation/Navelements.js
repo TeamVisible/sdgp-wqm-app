@@ -4,7 +4,7 @@ import {Link as LinkScroll} from 'react-scroll';
 
 export const Nav = styled.nav`
     background: ${({scrollNav}) => (scrollNav? '#000': 'transparent')};
-    height: 78px;
+    height: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,12 +76,13 @@ export const NavigationItems = styled.li`
 export const NavigationLinks = styled(LinkScroll)`
     color: #fff;
     display: flex;
-    align-item: center;
+    align-items: center;
     text-decoration: none;
     margin: 0px 10px;
     height: 100%;
     padding-top: 30px;
     cursor: pointer;
+    transition: .3s ease-in;
 
     &.active {
         border-bottom: 2px solid #03fcdb;
@@ -92,7 +93,7 @@ export const NavigationLinks = styled(LinkScroll)`
 export const NavigationLinkToSignUp = styled(LinkRout)`
     color: #fff;
     display: flex;
-    align-item: center;
+    align-items: center;
     text-decoration: none;
     margin: 0px 10px;
     height: 100%;
@@ -108,30 +109,32 @@ export const NavigationLinkToSignUp = styled(LinkRout)`
 export const NavigationBtn = styled.nav`
     display: flex;
     height: 100%;
-    align-item: center;
+    align-items: center;
 
     @media screen and (max-width: 961px){
         display: none;
     }
 `
 
-export const NaviBtnLink = styled(LinkRout)`
-    border-radius: 50px;
-    background: red;
+export const NaviBtnLink = styled(LinkScroll)`
+    border-radius: 2px;
+    background: none;
     white-space: nowrap;
     height: 60%;
     margin-top: 12px;
-    padding: 14px 21px;
+    padding: 13px 21px;
     color: white;
     font-size:16px;
     outline: none;
-    border: none;
+    border: 3px solid aqua;
     cursor: pointer;
     transition: all .2s ease-in-out;
     text-decoration: none;
+    font-weight: 700;
 
     &:hover{
-        background: white;
-        color: red;
+        background: aqua;
+        color: white;
+        
     }
 `

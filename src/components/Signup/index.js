@@ -28,7 +28,7 @@ const SignUp = () => {
             <Container>  
                 <Formwrap>
                     <FormContent>
-                        <Form action='#'>
+                        <Form action='#' method='POST'>
                             <FormH1>Sign In</FormH1>
                             
                             <FormLabel htmlFor='for'>First Name</FormLabel>
@@ -58,7 +58,7 @@ const SignUp = () => {
                             <FormLabel htmlFor='for'>Confirm-Password</FormLabel>
                             <FormInput type='password' name='cpswd' required/>
 
-                            <FormButton type='Submit'>Submit</FormButton>
+                            <FormButton type='Submit' name='signup'>Submit</FormButton>
                             <Text>Forgot Password</Text>
                         </Form>
                     </FormContent>

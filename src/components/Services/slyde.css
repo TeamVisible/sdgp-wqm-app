@@ -1,0 +1,20 @@
+.slideshow{
+    width: 650px;
+    height: 500px;
+    margin-right: 20px;
+}
+
+.slideshowsliders{
+    height: 300px;
+    width: 650px;
+}
+
+.slide{
+    height: 300px;
+    width: 650px;
+}
+
+.slide h1{
+    font-weight: 300;
+    font-size: 44px;
+}

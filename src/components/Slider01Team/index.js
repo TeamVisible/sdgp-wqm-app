@@ -2,16 +2,16 @@ import React from 'react'
 import './Slider.css'
 
 const Content = [{
-    title: 'O2 Value',
-    description: 'abc',
-    color: '#0088FE'
-},{
-    title: 'turbidity Value',
-    description: 'def',
+    id: 1,
+    title: 'Turbidity Value',
+    description: 'the maximum level of turbidity in ',
+    description2: 'finished drinking water at 1 NTU and at no time >5 NTU',
     color: '#00C49F'
-},{
+}, {
+    id: 2,
     title: 'pH Value',
-    description: 'ghi',
+    description: 'The pH of most drinking-water lies',
+    description2: 'within the range 6.5–8.5.',
     color: '#FFBB28'
 }];
 const delay = 3000;
@@ -61,9 +61,6 @@ const TeamSlider = () => {
                 ))}
             </div>
         </div>
-        
-        // https://tinloof.com/blog/how-to-build-an-auto-play-slideshow-with-react/
-        //https://codesandbox.io/s/p582xl40j?file=/index.js 
     )
 }
 

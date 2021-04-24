@@ -65,7 +65,8 @@ export const TeamP = styled.p`
     color: white;
     font-size: 24px;
     text-align: left;
-    max-width: 600px; 
+    max-width: 900px; 
+
 
     @media screen and (max-width: 960px){
         font-size: 18px;
