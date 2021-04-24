@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 
 export const TemaContainer = styled.div`
-    background: red;
+    background: rgb(2, 40, 66);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 950px;
+    height: 850px;
+    top: 0;
     position: relative;
     z-index: 1;
 
@@ -33,17 +34,17 @@ export const TemaContainer = styled.div`
 
 export const TeamBG = styled.div`
     position: absolute;
-    top: -78px;
+    /* top: -78px; */
     right: 0;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 100%
+    height: 950px;
     overflow: hidden;
 `;
 
 export const VdoBG = styled.video`
-    height: 100%;
+    height: 950px;
     width: 100%;
     -o-object-fit: cover;
     object-fit: cover;

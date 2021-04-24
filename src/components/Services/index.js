@@ -16,7 +16,7 @@ const Services = () => {
     });
 
     return (
-        <Fragment>
+        <>
             <ServiceContainer id='discover'>
                 <h1>Present Quality Of Water</h1>
                 <ServiceWrper>
@@ -70,7 +70,7 @@ const Services = () => {
                     </Textwrper2>
                 </ServiceWrper>
             </ServiceContainer>
-        </Fragment>
+        </>
 
     )
 }

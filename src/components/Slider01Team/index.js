@@ -47,6 +47,7 @@ const TeamSlider = () => {
                     <div className='slide' key={index} style={{block}}>
                         <h1>{block.title}</h1>
                         <p>{block.description}</p>
+                        <p>{block.description2}</p>
                     </div>
                 ))}
             </div>

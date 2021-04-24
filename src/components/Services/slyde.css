@@ -18,3 +18,14 @@
     font-weight: 300;
     font-size: 44px;
 }
+
+select{
+    margin: 5%;
+    font-size: 20px;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(2, 40, 66);
+}

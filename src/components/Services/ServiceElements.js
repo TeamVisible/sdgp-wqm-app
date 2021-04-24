@@ -4,7 +4,7 @@ import ServiceBG from '../../images/Underwater.jpg';
 
 export const ServiceContainer = styled.div`
     color: white;
-
+    top: -78px;
     background: url(${ServiceBG});
     height: 700px;
     transform: translateY(-25px);
@@ -21,6 +21,7 @@ export const ServiceWrper = styled.div`
     /* height: 100%; */
     display: flex;
     width: 100%;
+    top: -78px;
     margin-top: 8%;
     margin-left: auto;
     margin-right: auto;
@@ -31,6 +32,7 @@ export const ServiceWrper = styled.div`
 
 export const ServiceRw = styled.div`
     display: grid;
+    top: -70px;
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
     justify-items: left;
