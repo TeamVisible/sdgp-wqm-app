@@ -44,7 +44,7 @@ export const TeamBG = styled.div`
 `;
 
 // video
-export const VdoBG = styled.img`
+export const VdoBG = styled.video`
     height: 950px;
     width: 100%;
     -o-object-fit: cover;

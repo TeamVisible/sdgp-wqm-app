@@ -1,4 +1,5 @@
 import React from 'react';
+import TeamVB from '../../Videos/TeamVB.mp4';
 import TeamImg from '../../images/TeamBGImg.jpg';
 import './Slider.css'
 
@@ -66,7 +67,9 @@ const Team = () => {
         <>
             <TemaContainer id='about'>
                 <TeamBG>
-                    <VdoBG src={TeamImg} type='jpg/png'/>
+                    <VdoBG autoPlay loop muted src={TeamVB} type='video/mp4'/>
+                    {/* <VdoBG src={TeamImg} type='jpg/png'/> */}
+
                 </TeamBG>
                 
                 <TeamContent>
