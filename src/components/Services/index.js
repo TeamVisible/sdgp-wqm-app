@@ -40,6 +40,7 @@ const Services = () => {
                                 if (xhr.readyState === 4) {
                                     if (xhr.status === 200) {
                                         json_obj = JSON.parse(xhr.responseText);
+                                        // eslint-disable-next-line
                                         status = true;
                                         
                                         setState({

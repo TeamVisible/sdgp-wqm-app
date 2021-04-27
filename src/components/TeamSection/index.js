@@ -1,8 +1,7 @@
 import React from 'react';
-// import { Button } from 'react-scroll';
-import Video from '../../Videos/TeamVB.mp4';
+import TeamImg from '../../images/TeamBGImg.jpg';
 import './Slider.css'
-// import {Button} from '../ButtonElement';
+
 import{
     TemaContainer,
     VdoBG,
@@ -67,19 +66,20 @@ const Team = () => {
         <>
             <TemaContainer id='about'>
                 <TeamBG>
-                    <VdoBG autoPlay loop muted src={Video} type='video/mp4'/>
+                    <VdoBG src={TeamImg} type='jpg/png'/>
                 </TeamBG>
                 
                 <TeamContent>
                 
                     <TeamP>
-                        <h5 id='topic'>Safe water protects and save life</h5>
+                        <h1 id='topic'>Safe water protects and save life</h1>
                         <div className='slideshow'>
                             <div className='slideshowsliders' style={{transform:`translate3d(${-index*100}%, 0, 0)`}}>
                                 {Content.map((block,index) => (
                                     <div className='slide' key={index} style={{block}}>
                                         <h1>{block.title}</h1>
                                         <br/><br/>
+                                        <p>{block.description1}</p>
                                         <p>{block.description1}</p>
                                         <p>{block.description2}</p>
                                         <p>{block.description3}</p>

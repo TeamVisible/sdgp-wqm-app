@@ -11,8 +11,7 @@ import {
     NavigationItems,
     NavigationLinks,
     NavigationBtn,
-    NaviBtnLink,
-    NavigationLinkToSignUp
+    NaviBtnLink
 } from './Navelements'
 
 const NavigationBar = ({toggle}) => {
@@ -51,9 +50,6 @@ const NavigationBar = ({toggle}) => {
                         <NavigationItems>
                             <NavigationLinks to="services">SERVICES</NavigationLinks>
                         </NavigationItems>
-                        {/* <NavigationItems>
-                            <NavigationLinkToSignUp to="/signup">SIGN UP</NavigationLinkToSignUp>
-                        </NavigationItems> */}
                     </NavigationMenu>
                     <NavigationBtn>
                         <NaviBtnLink to="discover"><strong>Check the Quality</strong></NaviBtnLink>

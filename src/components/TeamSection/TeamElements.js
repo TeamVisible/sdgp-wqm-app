@@ -43,7 +43,8 @@ export const TeamBG = styled.div`
     overflow: hidden;
 `;
 
-export const VdoBG = styled.video`
+// video
+export const VdoBG = styled.img`
     height: 950px;
     width: 100%;
     -o-object-fit: cover;
@@ -54,7 +55,7 @@ export const VdoBG = styled.video`
 export const TeamContent = styled.div`
     z-Index: 1;
     max-width: 1200px;
-    position: absolute; 
+    position: absolute;
     padding: 8px 24px;
     flex-direction: column;
     align-items: center;
@@ -66,7 +67,7 @@ export const TeamP = styled.p`
     color: white;
     font-size: 24px;
     text-align: left;
-    max-width: 900px; 
+    max-width: 900px;
 
 
     @media screen and (max-width: 960px){
