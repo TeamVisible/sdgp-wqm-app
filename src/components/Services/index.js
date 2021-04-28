@@ -45,8 +45,8 @@ const Services = () => {
                                         
                                         setState({
                                             ph:json_obj.value['ph value'],
-                                            tr:json_obj.value['temperature level'],
-                                            temp:json_obj.value['turbidity level']
+                                            tr:json_obj.value['turbidity level'],
+                                            temp:json_obj.value['temperature level']
                                         })
                                         console.log(json_obj)
                                        
