@@ -1,10 +1,12 @@
-import React, { Fragment, useState } from 'react'
+import React, { useState } from 'react'
 import './slyde.css';
-import { ServiceWrper } from './ServiceElements'
-import { Textwrper2 } from './ServiceElements'
-import { Heading } from './ServiceElements'
-import { Subtitle } from './ServiceElements'
-import { ServiceContainer } from './ServiceElements';
+import { 
+    ServiceWrper,
+    Textwrper2,
+    Heading,
+    Subtitle,
+    ServiceContainer 
+} from './ServiceElements'
 import TeamSlider from '../Slider01Team/index'
 
 
