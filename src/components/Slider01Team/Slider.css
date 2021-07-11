@@ -5,6 +5,7 @@
     margin: 0 auto;
     overflow: hidden;
     max-width: 500px;
+    z-index: 999;
     
 }
 
@@ -18,10 +19,10 @@
 .slide{
 
     display: inline-block;
-
     height: 300px;
     width: 650px;
     border-radius: 10px;
+    font-weight: 350;
 }
 
 .slideshowdots{

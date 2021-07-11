@@ -4,8 +4,8 @@ import './Slider.css'
 const Content = [{
     id: 1,
     title: 'Turbidity Value',
-    description: 'the maximum level of turbidity in ',
-    description2: 'finished drinking water at 1 NTU and at no time >5 NTU',
+    description: 'the maximum level of turbidity in finished',
+    description2: 'drinking water at 1 NTU and at no time >5 NTU',
     color: '#00C49F'
 }, {
     id: 2,

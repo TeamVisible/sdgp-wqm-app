@@ -36,7 +36,7 @@ const NavigationBar = ({toggle}) => {
         <>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to="/"><img src={logo} alt='logo' style={{height: 90, marginTop: 10}}/></NavLogo>
+                    <NavLogo to="/"><img src={logo} alt='logo' style={{height: 75, margintop: 10}}/></NavLogo>
                     <NavIcon onClick={toggle}>
                         <FaBars /> {/* Three bars media query */}
                     </NavIcon>
@@ -49,6 +49,9 @@ const NavigationBar = ({toggle}) => {
                         </NavigationItems>
                         <NavigationItems>
                             <NavigationLinks to="services">SERVICES</NavigationLinks>
+                        </NavigationItems>
+                        <NavigationItems>
+                            <NavigationLinks to="aboutUs">ABOUT US</NavigationLinks>
                         </NavigationItems>
                     </NavigationMenu>
                     <NavigationBtn>

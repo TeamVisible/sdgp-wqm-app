@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import ServiceBG from '../../images/Underwater.jpg';
+import ServiceBG from '../../images/serviceBG.jpg';
 
 
 export const ServiceContainer = styled.div`
@@ -10,7 +10,27 @@ export const ServiceContainer = styled.div`
     transform: translateY(-25px);
     padding: 80px;
     text-align: center;
-    
+
+    :before{
+        content: '';
+        position: absolute;
+        top: -80px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background: 
+            linear-gradient(
+                180deg, 
+                rgba(0,0,0,0.2) 50%, 
+                rgba(0,0,0,0.1) 75%),
+            Linear-gradient(
+                180deg, 
+                rgba(0,0,0,0.1) 76%,
+                rgba(0,0,0,0.0) 100%
+            )
+        ;
+        z-index: 1;
+    }
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;

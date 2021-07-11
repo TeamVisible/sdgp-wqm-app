@@ -3,7 +3,7 @@ import {Link as LinkRout} from 'react-router-dom';
 import {Link as LinkScroll} from 'react-scroll';
 
 export const Nav = styled.nav`
-    background: ${({scrollNav}) => (scrollNav? '#000': 'transparent')};
+    background: ${({scrollNav}) => (scrollNav? 'rgba(0,0,0,0.6)': 'transparent')};
     height: 75px;
     display: flex;
     justify-content: center;
@@ -60,6 +60,9 @@ export const NavigationMenu =styled.ul`
     list-style: none;
     text-align: center;
     margin-right: -24px;
+    margin-top: -30px;
+    font-weight: 450;
+
 
     @media screen and (max-width: 968px){
         display: none;
@@ -70,6 +73,9 @@ export const NavigationItems = styled.li`
     height: 100%;
     font-size: 16px;
 
+    &:hover{
+        color: aqua; 
+    }
     
 `
 
@@ -110,6 +116,7 @@ export const NavigationBtn = styled.nav`
     display: flex;
     height: 100%;
     align-items: center;
+    margin-top: -5px;
 
     @media screen and (max-width: 961px){
         display: none;
@@ -122,7 +129,7 @@ export const NaviBtnLink = styled(LinkScroll)`
     white-space: nowrap;
     height: 60%;
     margin-top: 12px;
-    padding: 13px 21px;
+    padding: 10px 21px;
     color: white;
     font-size:16px;
     outline: none;
@@ -134,7 +141,6 @@ export const NaviBtnLink = styled(LinkScroll)`
 
     &:hover{
         background: aqua;
-        color: white;
-        
+        color: black; 
     }
 `

@@ -22,7 +22,7 @@ const Services = () => {
             <ServiceContainer id='discover'>
                 <h1>Present Quality Of Water</h1>
                 <ServiceWrper>
-                    <TeamSlider />
+                    <TeamSlider/>
                     <Textwrper2>
                         <Heading>Values</Heading>
                         <select onChange={(e) => {

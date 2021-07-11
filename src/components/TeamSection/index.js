@@ -78,7 +78,7 @@ const Team = () => {
                                 {Content.map((block,index) => (
                                     <div className='slide' key={index} style={{block}}>
                                         <h1>{block.title}</h1>
-                                        <br/><br/>
+                                        <br/>
                                         <p>{block.description1}</p>
                                         <p>{block.description1}</p>
                                         <p>{block.description2}</p>
